@@ -4,6 +4,8 @@ Operating instructions for Claude Code on this repository.
 
 **Read `PROJECT_CONTEXT.md` before doing anything else.** It contains the problem statement, the solution architecture, the reasoning behind every decision, and the scope boundaries. This file governs *how* we work; that file governs *what* we build.
 
+**Then read `IMPLEMENTATION_PLAN.md`.** It is the master build plan: the ten design gaps found in review and how each is resolved, the full model inventory (M1–M13), the mathematics for relighting transfer and cast shadows, the phase-by-phase Sonnet subagent batches with their contracts, every tool invocation, and the verification protocol. Those three documents divide cleanly — `PROJECT_CONTEXT.md` says *what* we build, this file says *how* we work, `IMPLEMENTATION_PLAN.md` says *in what order, by whom, and how we know it worked.*
+
 ---
 
 ## 0. Model and orchestration policy — NON-NEGOTIABLE
